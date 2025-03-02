@@ -1,0 +1,1958 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-image: url(showing-good-results-group-young-freelancers-office-have-conversation-smiling.jpg);
+    background-size: cover;
+    height:1100px;
+    width: 100%;
+    position: relative;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(30px)!important;
+}
+.top
+{
+    display: none;
+}
+nav
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        border-block-end: 2px solid white;
+        padding: 10px 14px;
+    }
+    .logo h1
+    {
+        font-size: 40px;
+        font-family: "Noto Sans Buhid", sans-serif;
+        font-weight: bolder;
+        color: white;
+    }
+ul{
+    display: none;
+}
+.bar
+{
+    display: flex;
+}
+.barr
+{
+    font-size: 30px;
+}
+/* cutom Scrollbar */
+::-webkit-scrollbar
+{
+  width: 12px;
+  /* height: 100px; */
+  height: 5px!important;
+}
+::-webkit-scrollbar-track
+{
+  background-color: #b8beff;
+  
+}
+::-webkit-scrollbar-thumb{
+  background: #0000ff;
+
+  border-radius: 10px;
+  height: 5px!important;
+}
+/* cutom Scrollbar */
+.txtcentr
+{
+    /* text-align: center; */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: -950px auto;
+    width: 100%;
+}
+.txtcentr h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 19px;
+}
+.txtcentr h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 25px;
+}
+.flex1
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: -780px auto;
+    position: absolute;
+    gap: 20px;
+    width: 100%;
+}
+.call
+{
+width:320px ;
+height: 200px;
+margin: 0 auto;
+border: 2px solid white;
+border-radius: 8px;
+}
+.boxcall
+{
+    width: 60px;
+    height: 60px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    position: relative;
+}
+.phones
+{
+    font-size: 30px;
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.call p{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-top: 20px;
+font-size: 17px;
+font-weight: 400;
+}
+.call h3{
+    font-family: "Roboto", sans-serif;
+    color: white;
+ margin-top: 10px;
+font-size: 20px;
+font-weight: 500;
+}
+.about
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    gap: 20px;
+    flex-direction: column;
+}
+.abouttxt
+{
+width: 320px;
+margin: 0 auto;
+}
+.abouttxt h4
+{
+    font-family: "Merriweather", serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(0, 0, 0); 
+}
+.abouttxt p
+{
+    font-family: "Merriweather", serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgba(28, 28, 28, 0.616); 
+    margin-top: 10px;
+}
+.num
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+.inv h3
+{
+    font-family: "Merriweather", serif;
+    font-size:30px;
+    font-weight: 400;
+    color:blue;  
+}
+.inv h4
+{
+    font-family: "Merriweather", serif;
+    font-size: 26px;
+    font-weight: 400;
+    color:rgba(12, 12, 12, 0.778);  
+}
+.pro h3
+{
+    font-family: "Merriweather", serif;
+    font-size:30px;
+    font-weight: 400;
+    color:blue;  
+}
+.pro h4
+{
+    font-family: "Merriweather", serif;
+    font-size: 26px;
+    font-weight: 400;
+    color:rgba(12, 12, 12, 0.778);  
+}
+.img1
+{
+    width: 320px;
+    height: 230px;
+    margin: 0 auto;
+}
+.img1 img
+{
+    width: 100%;
+  height: 100%;
+    border-radius: 10px;
+}
+.mind
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    gap: 20px;
+    flex-direction: column;  
+}
+.img2
+{
+    width: 320px;
+    margin: 0 auto;
+}
+.img2 img
+{
+    width: 100%;
+    border-radius: 10px;
+}
+.mindtxt
+{
+    width: 320px;
+margin: 0 auto;
+}
+.mindtxt h4
+{
+
+ font-family: "Merriweather", serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(0, 0, 0); 
+}
+.mindtxt p
+{
+    font-family: "Merriweather", serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgba(28, 28, 28, 0.616); 
+    margin-top: 10px;
+}
+.red
+{
+    margin: 20px auto;
+}
+.read
+{
+    width: 110px;
+    height: 30px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    border-radius:5px;
+    transition: .5s all linear;
+}
+.read:hover
+{
+    cursor: pointer;
+    background-color: rgb(86, 86, 253);   
+}
+.compli
+{
+    text-align: center;
+    margin: 100px auto;
+}
+.compli h5{
+    font-family: "Merriweather", serif;
+    font-size: 17px;
+    font-size: 300;
+    color: blue;
+}
+.compli h3{
+    font-family: "Merriweather", serif;
+    font-size: 25px;
+    font-size: 200;
+}
+.cards
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-direction: column;
+    margin: 50px auto;
+}
+.paint
+{
+    font-size: 40px;
+    padding-top: 50px;
+}
+.market
+{
+    border: 1px solid #4896ef5f;
+    width: 320px ;
+    margin: 0 auto;
+    transition: .3s all linear;
+}
+.market:hover
+{
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 12px #0176fc5f;
+}
+.marketpadding
+{
+    padding: 20px;
+    
+}
+.marketpadding h5
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+  
+}
+.marketpadding p
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 40px;
+    color: rgb(98, 98, 98);
+  
+}
+.img3
+{
+    height: 250px;
+    width: 100%;
+    margin: 50px auto;
+    position: relative;
+}
+.img3 img
+{height: 100%;
+    width: 100%;
+}
+.yy
+{
+    font-size: 40px;
+}
+.videotxt
+{
+position: absolute;
+margin-top: -165px;
+color: white;
+width: 100%;
+text-align: center;
+}
+.videotxt h4{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30px;
+}
+.videotxt h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30px;
+}
+.videotxt p{
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 17px;
+}
+.flx2
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    margin: 50px auto;
+}
+.check
+{
+width: 320px;
+margin: 0 auto;
+}
+.check h4
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  font-size: 20px;
+}
+.check p{
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+   color: rgb(98, 98, 98); 
+}
+.start
+{
+    margin: 0 auto;
+    width: 320px;
+    background-color: rgba(195, 195, 195, 0.175);
+    border-radius: 16px;
+    height: 500px;
+    transition: .3s all linear;
+}
+.start:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+}
+.startpadding
+{
+    padding-left: 20px;
+}
+.start h4
+{font-family: "Merriweather", serif;
+    font-size: 33px;
+font-weight: 400;
+margin-bottom: 10px;
+margin-top: 20px;
+}
+.start h2
+{font-family: "Merriweather", serif;
+    font-size: 30px;
+font-weight: 400;
+margin-top: 20px;
+color: blue;
+}
+.start p{
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+font-weight: 400;
+margin-top: 20px; 
+color: rgba(27, 26, 26, 0.989);
+}
+.price
+{
+    margin-top: 30px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    transition: .5s all linear;
+}
+.price:hover
+{
+    cursor: pointer;
+    background-color: rgb(86, 86, 253);  
+}
+.business
+{
+    margin: 0 auto;
+    width: 320px;
+    background-color: rgba(195, 195, 195, 0.175);
+    border-radius: 16px;
+    height: 550px; 
+    transition: .3s all linear;
+}
+.business:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+}
+.business h4
+{font-family: "Merriweather", serif;
+    font-size: 33px;
+font-weight: 400;
+margin-bottom: 10px;
+margin-top: 20px;
+}
+.business h2
+{font-family: "Merriweather", serif;
+    font-size: 32px;
+font-weight: 400;
+margin-top: 20px;
+color: blue;
+}
+.business p{
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+font-weight: 400;
+margin-top: 20px; 
+color: rgba(27, 26, 26, 0.989);
+}
+.prices
+{
+    margin-top: 30px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(195, 195, 195, 0.175);
+    font-family: "Roboto", sans-serif;
+    border: 1.5px solid blue;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    transition: .5s all linear;
+}
+.prices:hover
+{
+    cursor: pointer;
+    background-color: rgb(86, 86, 253);  
+}
+
+.img4
+{
+    width: 100%;
+height: 250px;
+position: relative;
+}
+.img4 img
+{
+    width: 100%;
+    height: 100%;
+}
+.musictxt
+{
+    position: absolute;
+    margin-top: -150px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.musictxt p{
+    font-family: "Merriweather", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(132 0 255);
+    font-size: 18px;
+}
+.musictxt h5{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+}
+.cc
+{
+    font-size: 20px;
+}
+.btn
+{
+    color: white;
+    border-radius: 10px;
+    font-weight: 400;
+    border: 2px solid blue;
+    padding: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    width: 110px;
+    text-align: center;
+    height: 10px;
+    height: 14px;
+    margin: 0 auto;
+    transition: .5s all linear;
+}
+.btn h6{
+    font-size: 17px;
+}
+.btn:hover
+{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(183, 118, 245);
+}
+.end2
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 20px;
+    margin: 50px 0 0 0;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.endtxt
+{
+    margin-top: 20px;
+}
+.jev
+{
+    width:320px;
+margin: 0 auto;
+}
+.jev p
+{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+.jev h2
+{
+    font-weight: 600;
+    font-size: 30px;
+    font-family: "Noto Sans Buhid", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.expl
+{
+    width: 320px;
+    margin:0px auto;
+}
+.expl p{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: rgb(98,98,98);
+    line-height: 2;
+}
+.expl p:hover{
+    cursor: pointer;
+    color:blueviolet;
+
+}
+.expl h6
+{
+    color: white;
+    font-family: "Merriweather", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.iii
+{
+    font-size: 30px;
+    transition: .3s all linear;
+    padding-top: 10px;
+}
+.iii:hover
+{
+    cursor: pointer;
+    color: blue !important;
+    transform: rotate(360deg)scale(1.1);
+}
+.kkk
+{
+font-size: 30px; 
+transition: .3s all linear;
+}
+.kkk:hover
+{
+    cursor: pointer;
+    color: blue !important;
+    transform: rotate(360deg)scale(1.1);    
+}
+.rrr
+{
+font-size: 30px; 
+transition: .3s all linear;
+}
+.rrr:hover
+{
+    cursor: pointer;
+    color: blue !important;
+    transform: rotate(360deg)scale(1.1);
+}
+.end
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+
+}
+.end p{
+    font-size: 16px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-family: "Noto Sans Buhid", sans-serif;
+    padding: 12px;
+}
+.purchase
+{
+    background-color: blue;
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius:7px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.purchase:hover
+
+{
+    cursor: pointer;
+    background-color: rgb(86, 86, 253);  
+}
+
+
+@media only screen and (min-width:550px) 
+{
+
+    .txtcentr h3 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-align: center;
+        font-size: 35px;
+    }
+    .txtcentr h2 {
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 45px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:768px) 
+{
+    nav
+    {
+        padding: 10px 40px;
+    }
+    .top h6
+    {
+        font-size: 17px;
+        margin-left: -45px;
+    }
+    .icon
+    {
+        margin-right: 0;
+    }
+    .logo h1{
+        font-size: 30px;
+    }
+   ul {
+        padding-left: 80px;
+        /* display: flex; */
+    }
+    .purchase
+    {
+        margin-left: 20px;
+    }
+    .txtcentr h2
+    {
+        font-size: 60px;
+    }
+    .about
+    {
+        flex-direction: column-reverse;
+        margin: 50px auto;
+    }
+    .img1
+    {
+        margin: 0 auto;
+        width: 680px;
+        height: 450px;
+    }
+    .abouttxt
+    {
+        margin: 0 auto;
+        width: 730px;
+    } 
+    .abouttxt h4
+    {
+        font-size: 40px;
+    }
+    .abouttxt p
+    {
+        font-size: 20px;
+    }
+    .num
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+    width: 400px;
+    margin: 0 auto;
+}
+.inv h3
+{
+    /* font-family: "Merriweather", serif;
+    font-size:40px;
+    font-weight: 400;
+    color:blue;   */
+    font-family: "Merriweather", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 50px;
+    color: blue;   
+}
+.inv h4
+{
+    font-family: "Merriweather", serif;
+    font-size: 30px;
+    font-weight: 400;
+    color:rgba(12, 12, 12, 0.778);  
+}
+.pro h3
+{
+    /* font-family: "Merriweather", serif;
+    font-size:30px;
+    font-weight: 400;
+    color:blue;   */
+    font-family: "Merriweather", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 50px;
+    color: blue;    font-family: "Merriweather", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 50px;
+    color: blue;   
+}
+.pro h4
+{
+    font-family: "Merriweather", serif;
+    font-size: 26px;
+    font-weight: 400;
+    color:rgba(12, 12, 12, 0.778);  
+}
+    .mind
+    {
+        flex-direction: column;
+        width: 730px;
+    }
+    .img2
+    {
+        margin: 0 auto;
+        width: 620px;
+        height: 450px;
+    }
+    .mindtxt
+    {
+        margin: 0 auto;
+        width: 730px;
+    }
+    .mindtxt h4
+
+    {
+        font-size: 40px;
+    }
+    .mindtxt p
+    {
+        font-size: 20px;
+    }
+
+    .compli h5{
+        font-family: "Merriweather", serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 22px;
+        color: blue;
+    }
+    .compli h3{
+        font-family: "Merriweather", serif;
+        font-weight: 200;
+        font-style: normal;
+        font-size: 40px;
+    }
+    .marketpadding h5
+    {
+        font-size: 23px ;
+        font-weight: 450;;
+    }
+    .marketpadding p
+    {
+        font-size: 18px ;
+        font-weight: 400;;
+    }
+    .cards
+    {
+        flex-direction: column;
+    }
+    
+
+
+
+
+
+
+
+
+    
+    .img3
+    {
+        width: 100%;
+        height: 400px;
+    }
+    .videotxt
+    {
+        margin-top: -255px;
+    }
+.flx2
+{
+    flex-direction: column;
+}
+
+
+.check
+{
+width: 320px;
+margin: 0 auto;
+}
+.check h4
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  font-size: 40px;
+}
+.check p{
+  
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+   color: rgb(98, 98, 98); 
+}
+.start
+{
+    margin: 0 auto;
+    background-color: rgba(195, 195, 195, 0.175);
+    border-radius: 16px;
+    height: 700px;
+    width: 500px; 
+}
+.startpadding
+{
+    padding-left: 20px;
+}
+.start h4
+{font-family: "Merriweather", serif;
+    /* font-size: 33px;
+font-weight: 400; */
+font-size: 55px;
+font-weight: 500;
+margin-bottom: 10px;
+margin-top: 20px;
+}
+.start h2
+{font-family: "Merriweather", serif;
+    font-size: 55px;
+    font-weight: 500;
+margin-top: 20px;
+color: blue;
+}
+.start p{
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+margin-top: 20px; 
+color: rgba(27, 26, 26, 0.989);
+}
+.price
+{
+    margin-top: 30px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    transition: .5s all linear;
+}
+.price:hover
+{
+    cursor: pointer;
+    background-color: rgb(86, 86, 253);  
+}
+.prices
+{
+    margin-top: 30px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(195, 195, 195, 0.175);
+    font-family: "Roboto", sans-serif;
+    border: 1.5px solid blue;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    transition: .5s all linear;
+}
+.prices:hover
+{
+    cursor: pointer;
+    background-color: rgb(86, 86, 253);  
+    color: white;
+}
+.business
+{
+    margin: 0 auto;
+    height: 700px;
+    width: 500px;
+    background-color: rgba(195, 195, 195, 0.175);
+    border-radius: 16px;
+    border: 2px solid blue; 
+    
+}
+.business h4
+{font-family: "Merriweather", serif;
+    font-size: 55px;
+    font-weight: 500;
+margin-bottom: 10px;
+margin-top: 20px;
+}
+.business h2
+{font-family: "Merriweather", serif;
+    font-size: 55px;
+    font-weight: 500;
+margin-top: 20px;
+color: blue;
+}
+.business p{
+   
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+margin-top: 20px; 
+color: rgba(27, 26, 26, 0.989);
+}
+
+
+
+
+.img4
+{
+    width: 100%;
+    height: 400px;
+}
+.img4 img
+{
+    width: 100%;
+    height: 100%;
+}
+.end2
+{
+    flex-direction: row;
+}
+.new 
+{
+    font-size: 18px;
+}
+}
+
+
+
+
+@media only screen and (min-width:800px) 
+{
+    
+
+    .top
+    {
+        display: flex;
+        justify-content: space-between;
+        border-block-end: 2px solid white;
+    }
+    .top h6{
+        font-size: 16px;
+        color: white;
+        /* margin-left: 60px; */
+        padding-left: 60px;
+        margin-top: 12px;
+        display: inline-block;
+    }
+    .icon
+    {
+   
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    }
+    .ii
+    {
+        font-size: 35px;
+        transition: .5s all linear;
+    }
+    .ii:hover
+    {
+        cursor: pointer;
+        color: blue !important;
+        transform: rotate(360deg);
+    }
+.kk
+{
+    font-size: 35px; 
+    transition: .5s all linear;
+}
+.kk:hover
+    {
+        cursor: pointer;
+        color: blue !important;
+        transform: rotate(360deg);
+    }
+    .rr
+{
+    font-size: 35px; 
+    transition: .5s all linear;
+}
+.rr:hover
+    {
+        cursor: pointer;
+        color: blue !important;
+        transform: rotate(360deg);
+    }
+    nav
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px auto;
+        border: none;
+        padding: 10px 20px;
+    }
+   
+    .logo h1
+    {
+        font-size: 40px;
+        font-family: "Noto Sans Buhid", sans-serif;
+        font-weight: bolder;
+        color: white;
+    }
+    ul
+    {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+  padding-left: 0;
+    }
+    ul li a
+    {
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+        text-decoration: none;
+        transition: .5s all linear;
+    }
+    ul li a:hover
+    {
+        cursor: pointer;
+      color: blue;  
+    }
+    .pur
+    {
+      
+    }
+    .purchase
+    {
+        background-color: blue;
+        width: 120px;
+        height: 30px;
+        border: none;
+        border-radius:7px;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .bar
+{
+    display: none;
+}
+.txtcentr
+{
+    /* text-align: center; */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    margin: -760px auto;
+}
+.txtcentr h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+    text-align: center;
+    font-size: 30px;
+}
+.txtcentr h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+}
+.flex1
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: -380px auto;
+    position: absolute;
+    gap: 20px;
+    width: 100%;
+}
+.call
+{
+width:320px ;
+height: 200px;
+margin: 0 auto;
+border: 2px solid white;
+border-radius: 8px;
+}
+.boxcall
+{
+    width: 60px;
+    height: 60px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    position: relative;
+}
+.phones
+{
+    font-size: 30px;
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.call p{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-top: 20px;
+font-size: 17px;
+font-weight: 400;
+}
+.about
+{
+    flex-direction: column-reverse;
+}
+.abouttxt
+{
+width: 730px;
+margin: 0 auto;
+}
+.abouttxt h4
+{
+    /* font-family: "Merriweather", serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);  */
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+}
+.abouttxt p
+{
+    /* font-family: "Merriweather", serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(28, 28, 28, 0.616); 
+    margin-top: 10px; */
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(98, 98, 98);
+}
+.num
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+    width: 400px;
+    margin:  0 auto;
+}
+.inv h3
+{
+    /* font-family: "Merriweather", serif;
+    font-size:40px;
+    font-weight: 400;
+    color:blue;   */
+    font-family: "Merriweather", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 50px;
+    color: blue;   
+}
+.inv h4
+{
+    font-family: "Merriweather", serif;
+    font-size: 30px;
+    font-weight: 400;
+    color:rgba(12, 12, 12, 0.778);  
+}
+.pro h3
+{
+    /* font-family: "Merriweather", serif;
+    font-size:30px;
+    font-weight: 400;
+    color:blue;   */
+    font-family: "Merriweather", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 50px;
+    color: blue;    font-family: "Merriweather", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 50px;
+    color: blue;   
+}
+.pro h4
+{
+    font-family: "Merriweather", serif;
+    font-size: 26px;
+    font-weight: 400;
+    color:rgba(12, 12, 12, 0.778);  
+}
+.img1
+{
+    width: 680px;
+    height:450px;
+    margin: 0 auto;
+}
+.img1 img
+{
+    width: 100%;
+  height: 100%;
+    border-radius: 10px;
+}
+.img1 img:hover
+{
+    cursor: pointer;
+    transform: scale(1.02);
+  overflow: hidden;
+  transition: .3s all linear;
+}
+.mind
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    gap: 20px;
+    flex-direction:column;  
+}
+.img2
+{
+    width: 680px;
+    height: 450px;
+    margin: 0 auto;
+}
+.img2 img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: .3s all linear;
+}
+.img2 img:hover
+{
+    cursor: pointer;
+    transform: scale(1.02);
+  overflow: hidden;
+}
+.mindtxt
+{
+    width: 730px;
+margin: 0  auto;
+}
+.mindtxt h4
+{
+
+    font-family: "Merriweather", serif;
+    font-size: 30px;
+    font-weight: 400;
+    color:rgba(12, 12, 12, 0.778);
+}
+.mindtxt p
+{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(98, 98, 98);
+}
+.compli h5{
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px;
+    color: blue;
+}
+.compli h3{
+    font-family: "Merriweather", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 60px;
+}
+.cards
+{
+    flex-direction: column;
+}
+.marketpadding h5
+{
+    font-size: 23px ;
+    font-weight: 450;;
+}
+.marketpadding p
+{
+    font-size: 18px ;
+    font-weight: 400;;
+}
+.img3
+{
+    height: 500px;
+    width:100%;
+    margin: 50px auto;
+    position: relative;
+}
+.img3 img
+{height: 100%;
+    width: 100%;
+}
+.videotxt
+{
+    margin-top: -350px;
+}
+
+.videotxt h4{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 47px;
+}
+.videotxt h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 45px;
+}
+.videotxt p{
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 17px;
+}
+.yy:hover
+{
+    cursor: pointer;
+    color: blue;
+    transform: scale(1.1);
+}
+.flx2
+{
+    flex-direction: column;
+}
+
+.check
+{
+width: 320px;
+margin: 0  auto;
+}
+.check h4
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  font-size: 40px;
+}
+.check p{
+  
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+   color: rgb(98, 98, 98); 
+}
+.start
+{
+    margin: 0  auto;
+    background-color: rgba(195, 195, 195, 0.175);
+    border-radius: 16px;
+    height: 700px;
+    width: 500px; 
+}
+.startpadding
+{
+    padding-left: 20px;
+}
+.start h4
+{font-family: "Merriweather", serif;
+    /* font-size: 33px;
+font-weight: 400; */
+font-size: 55px;
+font-weight: 500;
+margin-bottom: 10px;
+margin-top: 20px;
+}
+.start h2
+{font-family: "Merriweather", serif;
+    font-size: 55px;
+    font-weight: 500;
+margin-top: 20px;
+color: blue;
+}
+.start p{
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+margin-top: 20px; 
+color: rgba(27, 26, 26, 0.989);
+}
+.price
+{
+    margin-top: 30px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    transition: .5s all linear;
+}
+.price:hover
+{
+    cursor: pointer;
+    background-color: rgb(86, 86, 253);  
+}
+.prices
+{
+    margin-top: 30px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(195, 195, 195, 0.175);
+    font-family: "Roboto", sans-serif;
+    border: 1.5px solid blue;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    transition: .5s all linear;
+}
+.prices:hover
+{
+    cursor: pointer;
+    background-color: rgb(86, 86, 253);  
+    color: white;
+}
+.business
+{
+    margin: 0 auto ;
+    height: 700px;
+    width: 500px;
+    background-color: rgba(195, 195, 195, 0.175);
+    border-radius: 16px;
+    border: 2px solid blue; 
+    
+}
+.business h4
+{font-family: "Merriweather", serif;
+    font-size: 55px;
+    font-weight: 500;
+margin-bottom: 10px;
+margin-top: 20px;
+}
+.business h2
+{font-family: "Merriweather", serif;
+    font-size: 55px;
+    font-weight: 500;
+margin-top: 20px;
+color: blue;
+}
+.business p{
+   
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+margin-top: 20px; 
+color: rgba(27, 26, 26, 0.989);
+}
+.img4
+{
+    width: 100%;
+height: 500px;
+position: relative;
+}
+.img4 img
+{
+    width: 100%;
+    height: 100%;
+}
+.musictxt
+{
+    position: absolute;
+    margin-top: -350px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.musictxt p{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(132 0 255);
+    font-size: 24px;
+}
+.musictxt h5{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    color: white;
+}
+.cc
+{
+    font-size: 20px;
+}
+.btn
+{
+    color: white;
+    border-radius: 10px;
+    font-weight: 400;
+    border: 2px solid blue;
+    padding: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    width: 140px;
+    text-align: center;
+    height: 10px;
+    height: 14px;
+    margin: 0 auto;
+    transition: .5s all linear;
+}
+.btn h6{
+    font-size:23px;
+}
+.end2
+{
+    flex-direction: row;
+}
+.jev
+{
+    margin: 30px auto;
+}
+.expl
+{
+    margin: 30px auto;
+}
+.endtxt{
+    margin-top: 60px;
+}
+
+.end
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    gap: 20px;
+    align-items: center;
+    flex-direction:row;
+    margin: 0 auto;
+    color: white;
+    height: 100px;
+
+}
+.end p{
+    font-size: 20px;
+    margin: 0 auto;
+    display: inline;
+    font-weight: 400;
+    font-family: "Noto Sans Buhid", sans-serif;
+}
+.new
+{
+    margin-left: 0px;
+
+} 
+
+
+}
+@media only screen and (min-width:1000px) {
+    
+    .top h6
+    {
+        font-size: 20px;
+    }
+    .about
+    {
+        flex-direction: row;
+    }
+    /* .mind
+    {
+        flex-direction: row;
+        margin:50px 0 0 0 ;
+    } */
+    .mind
+    {
+        display: flex;
+        justify-content: space-around;
+       width: 100%;
+        gap: 20px;
+        flex-direction:row;  
+    }
+
+    .mindtxt
+{
+    width: 730px;
+margin: 0  auto;
+}
+.mindtxt h4
+{
+
+    font-family: "Merriweather", serif;
+    font-size: 30px;
+    font-weight: 400;
+    color:rgba(12, 12, 12, 0.778);
+}
+.mindtxt p
+{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(98, 98, 98);
+}
+    .img2
+    {
+        width: 680px;
+   height: 450px;
+    }
+    .img2 img
+    {
+        width: 100%;
+height: 100%;
+    }
+    .cards
+    {
+        flex-direction: row;
+    }
+    .flx2
+    {
+        flex-direction: row;
+    }
+}
+@media only screen and (min-width:1100px) 
+{
+    ul li a
+    {
+        font-size: 25px;
+    }
+    .top h6
+    {
+        font-size: 25px;
+    }
+}
+@media only screen and (min-width:1400px) {
+    .top h6
+    {
+        font-size: 25px;
+    }
+    .logo h1
+    {
+        font-size: 50px;
+    }
+    ul li a
+    {
+        font-size: 23px;
+    }
+    .purchase
+    {
+        width: 140px;
+    height: 40px;
+    font-size: 23px;
+    }
+    .txtcentr h2
+    {
+        font-size: 80px;
+    }
+    .txtcentr h3
+    {
+        font-size: 40px;
+    }
+    .call h3
+    {
+        font-size: 25px;
+    }
+    .call p
+    {
+        font-size: 22px;
+    }
+    .call
+    {
+        width: 370px;
+        height: 250px;
+    }
+    .phones
+    {
+        font-size: 50px;
+    }
+    .boxcall
+    {
+        width: 70px;
+        height: 70px;
+    }
+    .abouttxt h4
+    {
+        font-size: 50px;
+    }
+    .abouttxt p
+    {
+        font-size: 25px;
+    }
+    .inv h4
+    {
+        font-size: 35px;
+    }
+    .inv p
+    {
+        font-size: 60px;
+    }
+    .pro h4
+    {
+        font-size: 35px;
+    }
+    
+    .pro p
+    {
+        font-size: 60px;
+    }
+
+.mindtxt h4
+{
+    font-size: 50px;
+}
+.mindtxt p
+{
+    font-size: 25px;
+}
+.read {
+    width: 140px;
+    height: 40px;
+    font-size: 25px;
+}
+.compli h5
+{
+    font-size: 27px;
+}
+.paint 
+{
+    font-size: 55px;
+}
+.marketpadding h5 {
+    font-size: 28px;
+}
+.marketpadding p {
+    font-size: 20px;
+}
+.price {
+    margin-top: 30px;
+    width: 180px;
+    height: 40px;
+    font-size: 25px;
+}
+.prices
+{
+    margin-top: 30px;
+    width: 180px;
+    height: 40px;
+    font-size: 25px; 
+}
+.img3
+{
+    height: 600px;
+}
+.img4
+{
+    height: 600px;
+}
+.jev h2 {
+  
+    font-size: 35px;
+}
+.jev p {
+  
+    font-size: 18px;
+    
+}
+.iii{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.kkk{
+    font-size: 40px;
+}
+.rrr{
+    font-size: 40px;
+}
+.expl h6
+{
+    font-size: 28px;
+}
+.expl p
+{
+    font-size: 22px;
+}
+nav
+{
+    padding: 10px 40px;
+}
+    
+}
